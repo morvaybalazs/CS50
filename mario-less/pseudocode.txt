@@ -1,0 +1,12 @@
+promt for user input
+
+repeat prompt while input is less than 0 or more than 8
+
+if false build otherwise keep asking the user
+
+for each row  as long as row is less than height print a new line (considering 0 indexing)
+
+for each column  as long as column is  less or equal to row add 1 hash <= is used as the column is nested in the row
+everytime row increases column is initialized to 0
+
+for each space  as long  as space is less than height - row - 1, add a space
